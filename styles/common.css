@@ -115,5 +115,21 @@ h1, h2, h3, h4, h5, h6 {
     width: 175px;
     padding: 10px;
     text-align: center;
+}
+
+/* Page container style */
+.page.container {
+    display: flex;
+    justify-content: center;
+}
+
+.page.container > .content-wrapper {
+    width: 1000px;
+}
+
+.page.container > .content-wrapper > #chef {
+    width: 350px;
+    margin: 25px;
+    float: left;
 
 }
