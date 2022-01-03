@@ -118,12 +118,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Page container style */
-.page.container {
+.page-container {
     display: flex;
     justify-content: center;
 }
 
-.page.container > .content-wrapper {
+.page-container > .content-wrapper {
     width: 1000px;
 }
 
