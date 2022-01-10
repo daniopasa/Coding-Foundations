@@ -1,0 +1,11 @@
+.form > .form-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+}
