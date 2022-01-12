@@ -17,8 +17,8 @@
 }
 
 .form input:focus {
-    outline:none;
-    box-shadow: 0 1rem 2rem rgba(0 , 0, 0, 0.1);
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #cea135;
 }
 
@@ -35,9 +35,9 @@
     transition: all 0.3s;
 }
 
-.form input:focus {
+.form textarea:focus {
     outline:none;
-    box-shadow: 0 1rem 2rem rgba(0 , 0, 0, 0.1);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     border: 3px solid #cea135;
 }
 
@@ -45,13 +45,17 @@
     color: #11122b;
 }
 
+.form input:focus::-webkit-input-placeholder, .form textarea:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
 .form label {
     font-size: 1.2rem;
     font-weight: 700;
     margin-left: 2rem;
-    margin-top:0.7rem;
+    margin-top: 0.7rem;
     display: block;
-    transition: all;
+    transition: all 0.3s;
     color: #cea135;
     visibility: hidden;
     opacity: 0;
