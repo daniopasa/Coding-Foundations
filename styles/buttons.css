@@ -8,3 +8,9 @@
     outline: none;
     transform: 0.3s;
 }
+
+.center-btn-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
