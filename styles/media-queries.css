@@ -36,6 +36,10 @@
         padding: 50px 10px;
     }
 
+    .features-section {
+        height: 100%;
+    }
+
     .features-section > .columns-wrapper {
         width: 100%;
         flex-direction: column;
