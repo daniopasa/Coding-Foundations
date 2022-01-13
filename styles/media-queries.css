@@ -20,12 +20,12 @@
         margin-top: 15px;
     }
 
-    .link-wrapper {
+    .links-wrapper {
         flex-direction: column;
         margin-bottom: 20px;
     }
 
-    .link-wrapper > .nav-link {
+    .links-wrapper > .nav-link {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 1.5em;
@@ -62,7 +62,7 @@
         padding-right: 21px;
     }
 
-    .page-container > .content-wrapper > #chef {
+    .content-wrapper > #chef {
         margin: 0px 0px 25px 0px !important;
         width: 100% !important;
     }
@@ -77,5 +77,19 @@
 
     .square > .img-wrapper {
         order: 2;
+    }
+
+    .contact-grid-wrapper {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    .form input {
+        padding: 1.5rem 0rem;
+    }
+
+    .form textarea {
+        padding: 1.5rem 0rem;
     }
 }
