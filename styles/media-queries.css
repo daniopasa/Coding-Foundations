@@ -27,6 +27,7 @@
 
     .link-wrapper > .nav-link {
         margin-top: 10px;
+        margin-bottom: 10px;
         font-size: 1.5em;
         width: 100%;
     }
