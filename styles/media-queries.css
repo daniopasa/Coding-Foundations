@@ -66,4 +66,16 @@
         margin: 0px 0px 25px 0px !important;
         width: 100% !important;
     }
+
+    .square {
+        grid-template-columns: 1fr !important;
+    }
+
+    .square > .square-text-wrapper {
+        order: 1;
+    }
+
+    .square > .img-wrapper {
+        order: 2;
+    }
 }
